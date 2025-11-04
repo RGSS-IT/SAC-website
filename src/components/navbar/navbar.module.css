@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar_left {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.navbar_left_text {
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 5px
+}
+
+.navbar_right {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px;
+}
+
+.navbar_right_element {
+    margin-left: 15px;
+}
