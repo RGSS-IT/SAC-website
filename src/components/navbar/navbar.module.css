@@ -13,7 +13,7 @@
     color: white;
     font-size: larger;
     font-weight: bold;
-    margin-left: 5px
+    margin-left: 5px;
 }
 
 .navbar_right {
@@ -24,6 +24,11 @@
     margin-right: 15px;
 }
 
-.navbar_right_element {
+a.navbar_right_element {
     margin-left: 15px;
+    cursor: pointer;
+}
+
+a.navbar_right_element:hover {
+    color: green;
 }
