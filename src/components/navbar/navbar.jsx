@@ -1,8 +1,9 @@
-import React from "react"; // ALWAYS DO THIS
+import React from "react"; // KEEPME
 
+import "../../app/globals.css";
 import styles from "./navbar.module.css";
 
-import Link from "next/link";
+// import Link from "next/link"; // unused
 
 import Image from "next/image";
 
@@ -17,7 +18,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className={styles.navbar_right}>
-                {/* <a className={styles.navbar_right_element} href="#">Home</a> */}
+                <a className={styles.navbar_right_element} href="#">Home</a>
                 <a className={styles.navbar_right_element} href="#">Clubs</a>
                 <a className={styles.navbar_right_element} href="#">Student Life</a>
                 <a className={styles.navbar_right_element} href="#">More Info</a>
