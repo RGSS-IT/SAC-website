@@ -1,12 +1,13 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* we lwk need a global color palette */
+:root { 
+  --background: #C1F6ED;
+  --foreground: #02353C;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #19474E;
+    --foreground: #629695;
   }
 }
 
