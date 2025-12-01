@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <div className={styles.navbar}>
             <div className={styles.navbar_left}>
-                <Image src="/saclogo.png" width="45" height="45" alt="sac logo"></Image>
+                <Image src="/saclogo.png" alt="sac logo" className={styles.navbar_left_image} width={80} height={80}></Image>
                 <div className={styles.navbar_left_text}>
                     <h1><a href="/">SAC RGSS</a></h1>
                 </div>
